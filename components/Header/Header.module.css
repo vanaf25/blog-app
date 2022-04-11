@@ -1,0 +1,37 @@
+.menu{
+display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom:10px ;
+}
+.menu__container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu__logo{
+font-size: 29px;
+    color:#fff;
+}
+.menu__body{
+
+}
+.menu__list{
+display: flex;
+}
+.menu__li{
+    font-size: 18px;
+margin-right: 10px;
+    list-style: none;
+}
+.menu__li:last-child{
+    margin-right: 0;
+}
+.menu__link{
+    transition: opacity .3s;
+}
+.menu__link:hover{
+    opacity: .7;
+}

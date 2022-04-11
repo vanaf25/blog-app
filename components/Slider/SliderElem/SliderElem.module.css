@@ -1,0 +1,59 @@
+.elem{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px/10px;
+    list-style: none;
+    cursor:pointer;
+    position: relative;
+}
+.elem__body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+   position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background: rgba(0,0,0,0.2);
+}
+.elem__body p{
+    margin: 0 0 10px 0;
+}
+.elem__body h4{
+    margin: 0 0 10px 0;
+}
+.elem__cover{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.elem__author{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom:15px;
+}
+.elem__title{
+    font-size: 16px;
+    padding: 0 5px;
+}
+.elem__author img{
+    width: 35px;
+    height: 35px;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+.elem__cover img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    object-fit: cover;
+}
